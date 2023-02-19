@@ -6,5 +6,9 @@ class Decorator :
 public:
 	Decorator();
 	~Decorator();
+
+public:
+	virtual int getCost();
+	virtual string getDescription();
 };
 

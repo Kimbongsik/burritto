@@ -1,6 +1,6 @@
 #pragma once
 #include "BuritoFactory.h"
-#include "TransactionManger.h"
+#include "TransactionManager.h"
 class App
 {
 public:
@@ -15,6 +15,6 @@ private:
 
 private:
 	BuritoFactory* bf;
-	TransactionManger* tm;
+	TransactionManager* tm;
 };
 

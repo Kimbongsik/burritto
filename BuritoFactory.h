@@ -2,6 +2,8 @@
 #include "BaseBurito.h"
 #include "Drink.h"
 #include "Fries.h"
+#include "Sausage.h"
+#include "Jumbo.h"
 #include "ComboDiscount.h"
 #include "SetDiscount.h"
 
