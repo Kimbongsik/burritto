@@ -18,10 +18,10 @@ ComboDiscount::~ComboDiscount()
 }
 
 int ComboDiscount::getCost() {
-	return 300; //ÄÞº¸ ÇÒÀÎ°¡
+	return burito->getCost() - 300;
 }
 
 string ComboDiscount::getDescription() {
-	string description = "ÄÞº¸ +";
-	return description;
+	string description = "- ÄÞº¸\n";
+	return burito->getDescription() + description;
 }

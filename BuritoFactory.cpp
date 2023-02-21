@@ -28,7 +28,7 @@ Burito* BuritoFactory::makeOrderedMenu(int type) {
 	case 3: //세트(부리또 + 음료수 + 감자튀김)
 		ordered = new Drink(ordered);
 		ordered = new Fries(ordered);
-		ordered = new ComboDiscount(ordered);
+		ordered = new SetDiscount(ordered);
 		return ordered;
 		break;
 	}

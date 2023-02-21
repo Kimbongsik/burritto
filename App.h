@@ -11,10 +11,10 @@ public:
 
 private:
 	void readTransaction();
-	void writeTransaction();
+	void writeTransaction(vector<int>);
+	void writeNewTransaction();
 
 private:
 	BuritoFactory* bf;
 	TransactionManager* tm;
 };
-

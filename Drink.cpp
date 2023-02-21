@@ -21,6 +21,6 @@ int Drink::getCost() {
 }
 
 string Drink::getDescription() {
-	string description = "음료수 +";
+	string description = "+ 음료수\n";
 	return burito->getDescription() + description;
 }

@@ -17,6 +17,6 @@ int BaseBurito::getCost() {
 }
 
 string BaseBurito::getDescription() {
-	string description = "단품 +";
+	string description = "부리또\n";
 	return description;
 }

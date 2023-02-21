@@ -17,10 +17,10 @@ SetDiscount::~SetDiscount() {
 };
 
 int SetDiscount::getCost() {
-	return burito->getCost() + 500;
+	return burito->getCost() - 500;
 }
 
 string SetDiscount::getDescription() {
-	string description = "세트 +";
+	string description = "- 세트\n";
 	return burito->getDescription() + description;
 }

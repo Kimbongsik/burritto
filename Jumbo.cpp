@@ -12,7 +12,7 @@ Jumbo::Jumbo(Burito* b) {
 };
 
 Jumbo::~Jumbo() {
-
+	delete this->burito;
 };
 
 int Jumbo::getCost() {
@@ -20,6 +20,6 @@ int Jumbo::getCost() {
 }
 
 string Jumbo::getDescription() {
-	string description = "점보 +";
+	string description = "+ 점보\n";
 	return burito->getDescription() + description;
 }

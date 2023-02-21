@@ -8,12 +8,12 @@ Sausage::Sausage() {
 
 };
 
-Sausage::Sausage(Burito* b) {
-	this->burito = b;
+Sausage::~Sausage() {
+	delete this->burito;
 };
 
-Sausage::~Sausage() {
-
+Sausage::Sausage(Burito* b) {
+	this->burito = b;
 };
 
 int Sausage::getCost() {
@@ -21,6 +21,6 @@ int Sausage::getCost() {
 }
 
 string Sausage::getDescription() {
-	string description = "소시지 +";
+	string description = "+ 소시지\n";
 	return burito->getDescription() + description;
 }

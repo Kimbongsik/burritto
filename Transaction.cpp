@@ -28,4 +28,14 @@ vector<int> Transaction::getingredientsInfo()
 	return ingredientsInfo;
 }
 
+void Transaction::setorderedMenu(Burito* b)
+{
+	orderedMenu = b;
+}
+
+Burito* Transaction::getorderedMenu()
+{
+	return orderedMenu;
+}
+
 

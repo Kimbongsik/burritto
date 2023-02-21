@@ -12,7 +12,7 @@ Fries::Fries(Burito* b) {
 }
 
 Fries::~Fries() {
-	//Burito* burito;
+	delete this->burito;
 }
 
 int Fries::getCost() {
@@ -20,6 +20,6 @@ int Fries::getCost() {
 }
 
 string Fries::getDescription() {
-	string description = "°¨ÀÚÆ¢±è + ";
+	string description = "+ °¨ÀÚÆ¢±è\n";
 	return burito->getDescription() + description;
 }

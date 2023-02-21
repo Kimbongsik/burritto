@@ -4,8 +4,7 @@ using namespace std;
 class Burito
 {
 public:
-	Burito();
-	~Burito();
+	~Burito(); //자식클래스 소멸자 정상 호출
 
 public:
 	virtual int getCost() = 0;

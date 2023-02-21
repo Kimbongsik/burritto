@@ -14,6 +14,9 @@ public:
 	
 	void setingredientsInfo(vector<int>);
 	vector<int> getingredientsInfo();
+
+	void setorderedMenu(Burito*);
+	Burito* getorderedMenu();
 	
 private:
 	int orderID;
