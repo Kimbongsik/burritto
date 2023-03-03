@@ -1,7 +1,7 @@
 #include <iostream>
 #include "BaseBurito.h"
 
-using namespace std;
+using namespace std; 
 
 BaseBurito::BaseBurito()
 {
@@ -17,6 +17,6 @@ int BaseBurito::getCost() {
 }
 
 string BaseBurito::getDescription() {
-	string description = "ºÎ¸®¶Ç\n";
+	string description = "ÂºÃŽÂ¸Â®Â¶Ã‡\n";
 	return description;
 }
